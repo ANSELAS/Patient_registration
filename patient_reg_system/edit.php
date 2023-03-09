@@ -45,7 +45,7 @@ file_put_contents($file, $newData);
             <option value="Endocrinologist">Endocrinologist</option>
             <option value="Rheumatologist">Rheumatologist</option>
         </select>
-        <label for="new_visit">Update Visit date or time</label>
+        <label for="new_visit">Update Visit Date or Time</label>
         <input type="datetime-local" name="new_visit" value="<?= $patientArray[$index]['visit'] ?>">
         <label for="new_reason">Update complaints</label>
         <textarea name="new_reason"><?= $patientArray[$index]['health_reason'] ?></textarea>

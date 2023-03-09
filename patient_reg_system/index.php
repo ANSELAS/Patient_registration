@@ -51,7 +51,7 @@
                 </td>
             </tr>
             <tr>
-                <td><label for="visit">Visit date and Time:</label></td>
+                <td><label for="visit">Visit Date and Time:</label></td>
                 <td><input type="datetime-local" step="1800" name="visit" style="width:160px" required></td>
             </tr>
             <tr>
@@ -99,7 +99,7 @@
                     <th>Date of birth</th>
                     <th>Personal ID number</th>
                     <th>Doctor speciality</th>
-                    <th>Visit date and Time</th>
+                    <th>Visit Date and Time</th>
                     <th>Health complaints</th>
                 </tr>
                 <?php foreach ($results as $result): ?>

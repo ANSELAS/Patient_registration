@@ -18,7 +18,7 @@
             <th>Date of birth</th>
             <th>Personal ID number</th>
             <th>Doctors speciality</th>
-            <th>Visit date and Time</th>
+            <th>Visit Date and Time</th>
             <th>Health complaints</th>
             <th>Action</th>
         </tr>
