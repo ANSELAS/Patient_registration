@@ -105,7 +105,7 @@
                 <?php foreach ($results as $result): ?>
                     <tr>
                         <td>
-                            <?= $result['#'] ?>
+                            <?= $result['id_row'] ?>
                         </td>
                         <td>
                             <?= $result['name'] ?>

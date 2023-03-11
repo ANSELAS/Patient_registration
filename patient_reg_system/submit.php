@@ -95,7 +95,7 @@ class PatientData {
         $id = count($patientList) + 1;
 
         $patientList[] = [
-            '#' => $id,
+            'id_row' => $id,
             'name' => $formValidator->getName(),
             'surname' => $formValidator->getSurname(),
             'gender' => $formValidator->getGender(),

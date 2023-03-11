@@ -25,7 +25,7 @@
         <?php foreach ($list as $key => $data): ?>
             <tr>
                 <td>
-                    <?php echo $data['#'] ?>
+                    <?php echo $data['id_row'] ?>
                 </td>
                 <td>
                     <?php echo $data['name'] ?>

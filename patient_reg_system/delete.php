@@ -7,7 +7,7 @@ unset($list[$id]);
 $list = array_values($list);
 
 foreach ($list as $key => $value) {
-    $list[$key]['#'] = $key + 1;
+    $list[$key]['id_row'] = $key + 1;
 }
 $newContent = json_encode($list, JSON_PRETTY_PRINT);
 file_put_contents($file, $newContent);
