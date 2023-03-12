@@ -86,7 +86,7 @@
         $searchData = json_decode($content, true);
 
         $results = array_filter($searchData, function($item) use ($searchItem) {
-            return strpos($item['id_number'], $searchItem) !== false;
+            return str_contains($item['id_number'], $searchItem);
         });
 
         if (!empty($results)): ?>

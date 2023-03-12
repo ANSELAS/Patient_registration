@@ -1,1 +1,24 @@
-[]
+[
+    {
+        "id_row": 1,
+        "name": "John ",
+        "surname": "Cena",
+        "gender": "Male",
+        "dob": "1977-04-23",
+        "id_number": "37704238888",
+        "doctor": "Psychiatrist",
+        "visit": "2023-03-31 16:00",
+        "health_reason": "sdf"
+    },
+    {
+        "id_row": 2,
+        "name": "Keanu",
+        "surname": "Reeves",
+        "gender": "Male",
+        "dob": "1964-09-02",
+        "id_number": "36409020001",
+        "doctor": "Family doctor",
+        "visit": "2023-03-22 16:00",
+        "health_reason": "Where are my pills"
+    }
+]
