@@ -86,10 +86,11 @@
         $searchData = json_decode($content, true);
 
         $results = array_filter($searchData, function($item) use ($searchItem) {
-            return str_contains($item['id_number'], $searchItem);
+            return str_contains($searchItem, $item['id_number']);
         });
+        ?>
 
-        if (!empty($results)): ?>
+        <?php if (!empty($results)): ?>
             <table class="searchTable">
                 <tr>
                     <th>ID</th>
